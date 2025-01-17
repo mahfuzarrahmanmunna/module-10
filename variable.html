@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Explore</title>
+    <style>
+        /* this is variable declearation in css */
+        :root {
+            --primary-color: steelblue;
+            --secondary-color: blue;
+            --font-size: 20px;
+        }
+        h1 {
+            color: var(--primary-color);
+        }
+        h5 {
+            background-color: var(--primary-color);
+        }
+        .box {
+            border: 2px solid var(--primary-color);
+            width: calc(100% - 300px);
+        }
+        .box p {
+            color: var(--primary-color);
+        }
+        .sidebar {
+            background-color: lightgray;
+        }
+        .content {
+            background-color: lightblue;
+        }
+        .container {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 200px calc(100% - 200px - 20px);
+            grid-template-rows: 500px calc(100% - 220px);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>My Custom properties</h1>
+    <h5>Also commonly known as CSS Variables</h5>
+    <div class="box">
+        <h3>I am doing something</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem aperiam voluptate vero quia. Necessitatibus molestias iusto animi voluptates assumenda! Facilis vero, maxime quia ex commodi blanditiis sapiente alias dolorem fugit?</p>
+    </div>
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Main Content</div>
+    </div>
+</body>
+</html>
