@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box {
+            max-width:  300px;
+            max-height: 300px;
+            border: 3px solid steelblue;
+            overflow-y: auto;
+        }
+
+        
+         
+         .ellipsis {
+            width: 100px;
+            border: 1px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            /* text-overflow: ellipsis; */
+            text-overflow: clip;
+         }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <p class="ellipsis">
+            I am a serious learner. I am investing at least 6-8 hour every single day. No gap at all..
+        </p>
+    </header>
+    <div class="box" id="box1">
+        <h2>My Text Box 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere tenetur accusantium expedita soluta voluptatum neque accusamus dicta sit. Vel, pariatur, impedit et recusandae ratione nesciunt laboriosam sunt aliquam eaque fugit quaerat. Illum impedit atque repellendus accusantium laborum eos consequuntur quos id doloribus iusto repudiandae et, dicta aliquam nobis quibusdam consequatur accusamus cumque saepe, magnam, velit fugit dignissimos corrupti! Aperiam sint laborum expedita commodi corporis animi vel vero dolorem atque cum numquam, sit dolores nihil, distinctio aut voluptatibus porro odit iusto laudantium? Qui rem quis quas sapiente alias culpa earum et sequi nulla molestias? Tempore ullam, dolor in mollitia ipsa ducimus exercitationem enim, blanditiis est molestiae minus sed non praesentium quis rem earum amet voluptatibus et corporis tenetur. Neque velit exercitationem ad eius amet possimus quisquam sunt dolorum repudiandae quam, modi tenetur maiores fugiat nobis alias culpa ratione minus sapiente, voluptate eveniet aspernatur! Inventore fuga voluptates eius aut, ipsam quisquam quae eveniet vitae porro molestias possimus sint modi optio accusamus quam ad odit saepe quo nesciunt nam distinctio? Molestias, possimus, hic modi porro reiciendis doloremque voluptatibus distinctio necessitatibus rem iste sint iure delectus sequi debitis tempora ipsam sunt voluptates ex nihil atque dignissimos eum doloribus cum reprehenderit. Quisquam fuga esse eligendi?</p>
+    </div>
+    <div class="box" id="box2">
+        <h2>My Text Box 2</h2>
+        <p>Similique eligendi qui officiis, ratione, nulla labore quaerat, iusto sapiente quam at architecto cupiditate odit quasi facilis saepe expedita! Odit adipisci nisi, cum officiis magni velit accusantium assumenda voluptatibus. Rem voluptates voluptate nisi id velit quo eius exercitationem provident sed minus molestiae labore, ex vel culpa voluptatibus distinctio ullam officiis perspiciatis voluptatem consectetur! Doloribus qui tenetur in explicabo quod, eos, officiis nobis animi asperiores nesciunt iusto minus, ad voluptates rerum assumenda voluptatem praesentium obcaecati inventore ea placeat corrupti. Veritatis repellendus excepturi distinctio possimus consequatur commodi ullam facilis eligendi veniam modi nihil provident hic dicta cum, ad voluptates! Ipsam illo voluptates molestiae dolorum quas! Iure modi facere officia incidunt asperiores autem explicabo, tempora culpa nam ut! Dolor labore ullam corporis aut obcaecati officia sequi magni facilis rerum accusantium eum vel autem ipsum cum delectus reprehenderit, adipisci atque. Natus mollitia, quaerat eum debitis repellat a rem id harum voluptate recusandae et? Sit, commodi culpa alias ipsam ad tempore nam et repellat quidem corrupti doloremque exercitationem molestiae vero officiis neque. Ab nisi tempore non itaque facere labore rem, delectus eos quibusdam quod optio officiis explicabo debitis architecto, laborum unde. Laboriosam doloremque quaerat eos nostrum similique, dolores consequuntur sapiente reiciendis maxime velit tempora consequatur?</p>
+    </div>
+</body>
+</html>
